@@ -51,7 +51,7 @@ const isDateValid = (month: string, year: string) => {
         errors.dateError = 'Wrong date, digits only'
     } else if (month.length !== 2 || year.length !== 4) {
         errors.dateError = 'Wrong format'
-    } else if (+month > 12) {
+    } else if (+month > 12 || +month === 0) {
         errors.dateError = 'Wrong date'
     } else if (+year < yearNow) {
         errors.dateError = 'The card is expired'
