@@ -4,6 +4,10 @@ This is backend application, frontend is here [Click](https://github.com/rybaaa/
 
 ## How to start project
 
+Install all the dependencies by running in the project directory:
+
+### `yarn install`
+
 In the project directory, you can run:
 
 ### `yarn watch`
